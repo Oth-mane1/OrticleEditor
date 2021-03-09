@@ -1,2 +1,2 @@
 # OrticleEditor
-Simple text Editor
+Text Editor with basic operations.
