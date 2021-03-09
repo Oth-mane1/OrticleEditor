@@ -183,8 +183,8 @@
 
 #content {
     width: 100%;
-    height: 90%;
-    max-height: 90%;
+    height: 100%;
+    max-height: calc(100% - 50px);
     overflow-y: auto;
     padding: 20px;
     outline: none;
@@ -213,8 +213,14 @@
 /* Custom ToolBar */
 ::-webkit-scrollbar {
     width: 8px;
+    height: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--dark-grey);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: inherit;
 }
