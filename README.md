@@ -1,7 +1,7 @@
 # Orticle Editor
 Text Editor with basic operations.
 
-Aviable on :
+Available on :
 
 Github: https://oth-mane1.github.io/OrticleEditor/Text%20Editor/
 
