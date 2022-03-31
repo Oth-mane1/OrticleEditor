@@ -10,7 +10,7 @@ OR
 Netlify: https://orticleeditor.netlify.app/
 
 ## Dark Mode
-![Orticle Dark](https://github.com/Oth-mane1/OrticleEditor/blob/main/Orticle-dark.png)
+![Orticle Dark](https://github.com/Oth-mane1/OrticleEditor/blob/main/dist/images/Orticle-dark.png)
 
 ## Light Mode
-![Orticle Light](https://github.com/Oth-mane1/OrticleEditor/blob/main/Orticle-light.png)
+![Orticle Light](https://github.com/Oth-mane1/OrticleEditor/blob/main/dist/images/Orticle-light.png)
