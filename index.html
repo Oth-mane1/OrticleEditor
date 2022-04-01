@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <script src="/dist/js/app.js" defer></script>
     <link rel="stylesheet" href="/dist/css/style.css">
     <link rel="shortcut icon" href="/dist/images/favicon.ico" type="image/x-icon">
     <link rel="manifest" href="/manifest.json">
@@ -14,8 +13,9 @@
     <title>Orticle Editor</title>
 </head>
 
-<body>
-    <div class="container light">
+<body class="fluid container">
+    <div class="glassy"></div>
+    <header class="z-1">
         <div id="logo">
             <svg width="200" height="40" viewBox="0 0 200 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -26,8 +26,43 @@
                     fill="#1E1E24" />
             </svg>
         </div>
-    </div>
+    </header>
+    <section class="main">
+        <div class="home z-1">
+            <div class="text">
+                <p>
+                    The most powerfull <span class="highlight">Text Editor</span> that will meet all your basics need.
+                </p>
+            </div>
+            <div class="editorOverview">
+                <img src="/dist/images/orticle_overview.svg" alt="Image of orticle editor" srcset="">
+            </div>
+        </div>
+        <div class="description">
+            <div class="bubble">
+                <img src="/dist/images/bubble.svg" alt="Bubble image with glassy effect" srcset="">
+            </div>
+            <div class="text z-1">
+                <p>
+                    <span class="highlight">Easy</span>, yet <span class="highlight">Powerfull</span> and
+                    <span class="highlight">free</span> to use.
+                </p>
+                <div class="lil-btn">
+                    <span class="lil-bubble">             
+                    </span>
+                    <button class="text-btn">Let's Try It</button>
+                    <span class="lil-arrow">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
     <script src="/pwa.js"></script>
+    <script>
+        let glass = document.getElementsByClassName("glassy")[0];
+        glass.style.height = document.body.offsetHeight + "px";
+    </script>
 </body>
 
 </html>
