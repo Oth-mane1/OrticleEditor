@@ -15,7 +15,7 @@
           "purpose": "maskable any"
         }
       ],
-    "start_url": "/editor",
+    "start_url": "./editor/",
     "background_color": "#144c72",
     "display": "standalone",
     "scope": "/",
