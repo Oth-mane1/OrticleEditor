@@ -8,7 +8,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   deferredPrompt = e;
 });
 
-buttonInstall?.addEventListener('click', (e) => {
+buttonInstall && buttonInstall.addEventListener('click', (e) => {
   // Show the install prompt
   deferredPrompt.prompt();
   // Wait for the user to respond to the prompt
@@ -21,11 +21,15 @@ buttonInstall?.addEventListener('click', (e) => {
   });
 });
 
+// Apply the glassy theme 
+setTimeout(() => {
 
+  let glass = document.getElementsByClassName("glassy")[0];
+  glass.style.height = document.body.offsetHeight + "px";
+}, 111);
+
+// Inint animation
 AOS.init({
-    delay: 100,
-    duration: 600
+  delay: 100,
+  duration: 600
 });
-
-let glass = document.getElementsByClassName("glassy")[0];
-glass.style.height = document.body.offsetHeight + "px";
