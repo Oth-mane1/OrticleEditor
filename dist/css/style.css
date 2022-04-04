@@ -352,7 +352,6 @@ footer .ft-content .open-src img {
 }
 
 footer .ft-content .madeby {
-    margin-top: 1em;
     text-align: center;
 }
 
@@ -385,6 +384,11 @@ footer .ft-content .madeby {
 
     .container .download .bubble img {
         position: static;
+    }
+
+
+    footer .ft-content .madeby {
+        margin-top: 2em;
     }
 }
 
@@ -571,7 +575,7 @@ footer .ft-content .madeby {
     background-color: var(--bg-btn-hv);
 }
 
-#export svg{
+#export svg {
     width: 32px;
     height: 32px;
 }
